@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doceria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Doceria da Lica</h1>
+            <button class="navbar-toggler" data-bsa-toggler="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-house-heart me-1"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-heart me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-postcard-heart me-1"></i>
+                            Nosso Cardápio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-square-heart me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-nos">
+        <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/images/diana-polekhina-PIDlLKcFOEI-unsplash.jpg " alt="imagem 1" style="width: 100%; height: 900px;">
+                </div>            
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/images/luis-aguila-xLvIcAYuuMQ-unsplash.jpg" alt="imagem 2" style="width: 100%; height: 900px;">
+                </div>            
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/images/perry-merrity-ii--kmQbOYmDzY-unsplash.jpg" alt="imagem 3" style="width: 100%; height: 900px;">
+                </div>            
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="images/tim-cooper-q2i_zb0zdB8-unsplash.jpg" class="d-block w-100 rounded" alt="Foto do espaço">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span>nós</span></h2>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatem, sequi quidem tempora id nulla provident beatae, repudiandae excepturi quo impedit labore eveniet adipisci fugit debitis aut laudantium et voluptates.
+                        </p>
+                        <h3 class="section-title">Sobre o <span>espaço</span></h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum et quia ad, error maiores doloribus architecto. Enim, numquam illum? Cupiditate accusantium ad consectetur possimus dolorum quod totam, perspiciatis inventore est.
+                        </p>
+                        <ul>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center">Para todas <span>as ocasiões</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="images/robert-anderson--gDHgEcec6Q-unsplash.jpg" class="d-block w-100 rounded mb-2" alt="aniversario">
+                    <h5 class="section-title text-colored fw-bold">
+                        <i class="bi bi-cake"></i>
+                        Aniversários
+                    </h5>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam suscipit aliquid laudantium reprehenderit magnam ipsam voluptatibus, consectetur eaque vel, distinctio similique omnis itaque delectus deleniti id labore adipisci rerum!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/thomas-beaman-3NLJXvQfdc0-unsplash.jpg" class="d-block w-100 rounded mb-2" alt="casamento">
+                    <h5 class="section-title text-colored fw-bold">
+                        <i class="bi bi-arrow-through-heart-fill"></i>
+                        Recepção para casamentos
+                    </h5>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam suscipit aliquid laudantium reprehenderit magnam ipsam voluptatibus, consectetur eaque vel, distinctio similique omnis itaque delectus deleniti id labore adipisci rerum!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/ian-schneider-PAykYb-8Er8-unsplash.jpg" class="d-block w-100 rounded mb-2" alt="confraternizacao">
+                    <h5 class="section-title text-colored fw-bold">
+                        <i class="bi bi-people-fill"></i>
+                        Confraternizações
+                    </h5>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum nam suscipit aliquid laudantium reprehenderit magnam ipsam voluptatibus, consectetur eaque vel, distinctio similique omnis itaque delectus deleniti id labore adipisci rerum!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardapio">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    Nosso <span class="section-title">cardápio</span>
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#docinhos" class="text-start nav-link active">Docinhos e Bombons</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#pudim" class="text-start nav-link">Pudins e Pavês</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="docinhos">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/heather-barnes-gP1YecpRyD8-unsplash.jpg" class="d-block" style="width: 100%; height: 300px;">
+                                    <h5 class="text-colored mt-2">Bombons</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/michele-blackwell-evRB-x0TJkM-unsplash.jpg" class="d-block" style="width: 100%; height: 300px;">
+                                    <h5 class="text-colored mt-2">Docinhos</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/heather-barnes-gP1YecpRyD8-unsplash.jpg" class="d-block" style="width: 100%; height: 300px;">
+                                    <h5 class="text-colored mt-2">Bombons</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/michele-blackwell-evRB-x0TJkM-unsplash.jpg" class="d-block" style="width: 100%; height: 300px;">
+                                    <h5 class="text-colored mt-2">Docinhos</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="pudim">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/matheus-ferrero-Doyf6UvvAYU-unsplash.jpg" class="d-block" style="width: 100%; height: 300px;">
+                                    <h5 class="text-colored mt-2">Pudim</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="images/matheus-ferrero-Doyf6UvvAYU-unsplash.jpg" class="d-block" style="width: 100%; height: 300px;">
+                                    <h5 class="text-colored mt-2">Pudim</h5>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                    </p>
+                                </div>                                                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">Fale <span class="section-title">conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label text-colored">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-colored">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label text-colored">Seu telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label text-colored">Sua mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>   
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h5 class="section-title text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais
+                        </h5>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5" ms-1 me-1>
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h5 class="section-title text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h5>
+                        <p>
+                            Rua são paulo n° 1234, São Paulo - SP
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+<script>
+    $(document).ready(function() {
+        $('form').submit(function(e) {
+            // Impedir o envio padrão do formulário
+            e.preventDefault();
+
+            // Validar campos
+            var nome = $('#nome').val();
+            var email = $('#email').val();
+            var mensagem = $('#mensagem').val();
+
+            if (nome === '') {
+                alert('Por favor, preencha seu nome.');
+                return;
+            }
+
+            if (email === '' || !isValidEmail(email)) {
+                alert('Por favor, insira um e-mail válido.');
+                return;
+            }
+
+            if (mensagem === '') {
+                alert('Por favor, escreva sua mensagem.');
+                return;
+            }
+
+            // Se todos os campos são válidos, você pode prosseguir com o envio do formulário
+            alert('Formulário válido. Enviando...');
+
+        });
+
+        // Função para validar e-mail
+        function isValidEmail(email) {
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+    });
+</script>
